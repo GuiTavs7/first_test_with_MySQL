@@ -1,0 +1,30 @@
+Você pode explicar de forma mais simples assim:
+
+> **SQL** é a linguagem usada para criar, consultar e gerenciar bancos de dados. Já o **MySQL** é um sistema de gerenciamento de banco de dados (SGBD) que utiliza a linguagem SQL.
+
+Em um banco de dados do MySQL, as informações são organizadas em **tabelas**, semelhantes a planilhas:
+
+* **Cada linha (registro)** representa um conjunto de informações, como um usuário cadastrado.
+* **Cada coluna (campo)** armazena um tipo específico de dado, como nome, idade ou e-mail.
+* **Cada coluna possui um tipo de dado definido**, por exemplo:
+
+  * `INT` → números inteiros;
+  * `VARCHAR` → textos de tamanho variável;
+  * `CHAR` → textos com tamanho fixo;
+  * `FLOAT` ou `DECIMAL` → números com casas decimais.
+
+### Exemplo
+
+| ID | Nome  | Idade | Salário |
+| -: | ----- | ----: | ------: |
+|  1 | João  |    25 | 2500.50 |
+|  2 | Maria |    30 | 3800.75 |
+
+Nesse exemplo:
+
+* `ID` é do tipo `INT`;
+* `Nome` é do tipo `VARCHAR`;
+* `Idade` é do tipo `INT`;
+* `Salário` pode ser `DECIMAL` ou `FLOAT`.
+
+Assim, o MySQL armazena os dados de forma organizada em tabelas, e a linguagem SQL permite inserir, consultar, atualizar e excluir essas informações.
